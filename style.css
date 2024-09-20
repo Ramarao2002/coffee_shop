@@ -235,6 +235,7 @@ a:hover{
         background-attachment: fixed;
         background-size: cover;
         padding: 9rem;
+        width: 472px;
     }
     #sec_5{
         width: 760px;
@@ -244,6 +245,10 @@ a:hover{
         flex-direction: column;
         align-items: center;
         padding: 4rem;
+    }
+
+    #var_coffee{
+        padding-top: 5rem;
     }
     
     #sec_6_bg{
