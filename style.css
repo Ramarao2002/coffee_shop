@@ -1,0 +1,193 @@
+#background{
+   background: url(coffee.jpg);
+   padding: 10px;
+   height: 100vh;
+   background-attachment: fixed;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+span{
+    color:white;
+    font-size: 1.5rem;
+    font-family: italic;
+    letter-spacing: 4px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#coffee_text{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-family: italic;
+    padding-top: 2rem;
+}
+
+#shop_btn{
+    border: 1px solid white;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    width: 12rem;
+    height: 3.5rem;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+#shop_btn:hover{
+    background-color: rgb(196, 132, 77);
+    border: none;
+}
+
+
+
+#second_section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#text{
+    letter-spacing: 4px;
+    font-style:italic ;
+    font-size: 3rem;
+}
+
+#coffee_list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+#americano{
+    width: 18rem;
+}
+
+#mocha{
+    width: 18rem;
+}
+
+#instant{
+    width: 18rem;
+}
+
+@media screen and ( max-width: 980px) {
+
+    #coffee_list{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    
+    #americano{
+        width: 18rem;
+        padding-bottom: 3rem;
+    }
+    
+    #mocha{
+        width: 18rem;
+        padding-bottom: 3rem;
+    }
+    
+    #instant{
+        width: 18rem;
+    }
+    
+}
+
+
+/*------------------3rd section-----------------*/
+
+#sec_3_bg{
+    background: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-size: cover;
+    padding-bottom: 5.5rem;
+}
+
+#sec_3_text{
+
+    margin-top: 4rem;
+    padding-top: 6rem;
+}
+
+
+#coffee_making{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+#prepare_container{
+    width: 420px;
+    padding-top: 2rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(171, 113, 72);
+}
+
+
+/*------------------4th section-----------------*/
+
+
+#sec_4_bg{
+
+    background-image: url(https://cdn.pixabay.com/photo/2024/02/12/15/46/coffee-8568846_960_720.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 9rem;
+}
+
+/*------------------5th section-----------------*/
+
+#about{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 4rem;
+    padding-top: 7rem;
+}
+
+
+/*------------------6th section-----------------*/
+
+#sec_6_bg{
+    background: linear-gradient(rgb(255,255,255,0.4),rgb(255,255,255,0.4)), url(https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_1280.jpg);
+    background-size: cover;
+    padding: 6rem;
+    padding-top: 8rem;
+}
+
+
+
+#coffee_packets{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+}
+
+/*-----------------7th section----------------*/
+
+#sec_7_coffee_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-left: 2rem;
+    padding-top: 4rem;
+}
