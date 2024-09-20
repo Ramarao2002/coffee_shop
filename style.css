@@ -186,6 +186,7 @@ a:hover{
     display: flex;
     padding-top: 4rem;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 /*-----------------7th section----------------*/
