@@ -101,6 +101,12 @@ span{
     #instant{
         width: 18rem;
     }
+
+    #coffee_packets{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4rem;
+    }
     
 }
 
@@ -178,8 +184,8 @@ a:hover{
 
 #coffee_packets{
     display: flex;
-    flex-wrap: wrap;
     padding-top: 4rem;
+    justify-content: space-around;
 }
 
 /*-----------------7th section----------------*/
