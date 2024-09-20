@@ -54,6 +54,10 @@ span{
     padding-bottom: 5rem;
 }
 
+#text_para{
+    font-size: 20px;
+}
+
 #text{
     letter-spacing: 4px;
     font-style:italic ;
@@ -82,24 +86,29 @@ span{
 
     #coffee_list{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         padding-top: 20px;
         align-items: center;
     }
 
+    #img_sec_2{
+        width: 550px;
+    }
+
     
     #americano{
-        width: 18rem;
+        width: 33rem;
         padding-bottom: 3rem;
     }
     
     #mocha{
-        width: 18rem;
+        width: 33rem;
         padding-bottom: 3rem;
     }
     
     #instant{
-        width: 18rem;
+        width: 33rem;
     }
 
     #coffee_packets{
@@ -119,10 +128,12 @@ span{
     padding-bottom: 5.5rem;
 }
 
+
 #sec_3_text{
 
     margin-top: 4rem;
     padding-top: 6rem;
+    letter-spacing: 4px;
 }
 
 
@@ -222,12 +233,24 @@ a:hover{
 
     }
 
+   
+
     #sec_3_bg{
         background: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
         background-size: cover;
         padding-bottom: 5.5rem;
         width: 760px;
     }
+    
+    #sec_3_text{
+
+    margin-top: 4rem;
+    padding-top: 6rem;
+    letter-spacing: 4px;
+    font-size: 2.5rem;
+    }
+
+    
 
     #sec_4_bg{
 
@@ -258,6 +281,10 @@ a:hover{
         width: 570px;
     }
 
+    #img_sec_6{
+        width: 480px;
+    }
+
     #sec_7{
         padding-top: 7rem;
         width: 610px;
@@ -268,5 +295,41 @@ a:hover{
         flex-direction: column;
         align-items: center;
     }
+    #img{
+        width: 600px;
+    }
     
+    #img1{
+        width: 650px;
+    }
+
+
+    #prepare_container{
+        width: 650px;
+        padding-top: 2rem;
+    }
+
+    #text_size{
+        font-size: 36px;
+    }
+
+    #text_p{
+        font-size: 26px;
+    }
+
+    #text_r{
+        font-size: 27px;
+    }
+
+    #text_para{
+        font-size: 28px;
+    }
+
+    #coffee_making{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+        flex-wrap: wrap;
+    }
 }
