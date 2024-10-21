@@ -12,14 +12,14 @@
 
         <div id="header">
             <div>
-                <img src="shop name.png" width="180px">
+               <a href="index.html"> <img src="shop name.png" width="180px"></a>
             </div>
 
             <div id="navbar">
-                <span>HOME</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <span>SHOP</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <span>ABOUT</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <span>CONTACT</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span><a id="navbar_text" href="index.html">HOME</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span><a id="navbar_text" href="shop.html"> SHOP</a></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span> <a id="navbar_text"  href="about.html">ABOUT </a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span> <a id="navbar_text"  href="contact.html">CONTACT </a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src="cart.png" width="40">
             </div>
 
@@ -37,7 +37,7 @@
 
                 <br><br><br>
             
-                    <p id="shop_btn">Shop Here</p>
+                   <a href="shop.html"> <p id="shop_btn">Shop Here</p> </a>
             </center>
 
     </div>
@@ -56,7 +56,7 @@
         <div id="coffee_list">
 
             <div id="americano">
-                <img id="img_sec_2" src="americano.jpg" width="300"  style="border-radius: 2rem;">
+                <img id="img_sec_2" src="https://images.pexels.com/photos/28504478/pexels-photo-28504478/free-photo-of-artistic-latte-with-leaf-pattern-on-wooden-tray.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="300"  style="border-radius: 2rem;">
                 <center>
                 <h3 id="text_size">Americano</h3>
                 <p id="text_p">The americano is often mistaken for just a standard black coffee, but it's so munch more than that.</p>
@@ -146,18 +146,30 @@
     <div id="sec_5">
     <div id="about">
         <div id="var_coffee">
+            <Center>
+            <p style="font-size: 5rem; color: burlywood; font-family: georgia,serif;">25</p>
             <h3 style="letter-spacing: 5px; font-style: italic;">VARIETIES OF COFFEE</h3>
+        </Center>
         </div>
         <div id="var_coffee">
+            <Center>
+                <p style="font-size: 5rem; color: burlywood; font-family: georgia,serif;">2</p>
             <h3 style="letter-spacing: 5px; font-style: italic;">HOURS OF TESTING</h3>
+            </Center>
         </div>
         <div id="var_coffee">
+            <Center>
+                <p style="font-size: 5rem; color: burlywood; font-family: georgia,serif;">11</p>
             <h3 style="letter-spacing: 5px; font-style: italic;">COFFEE MARKETS</h3>
+            </Center>
 
         </div>
         <div id="var_coffee">
+            <Center>
+                <p style="font-size: 5rem; color: burlywood; font-family: georgia,serif;">50</p>
 
             <h3 style="letter-spacing: 5px; font-style: italic;">COFFEE BRANDS</h3>
+            </Center>
         </div>
     </div>
 </div>
@@ -173,36 +185,44 @@
         </center>
 
         <div id="coffee_packets">
-                <div>
+                <div id="sec_6_container">
                 <center>
                     <img id="img_sec_6" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-11.png" width="300">  
                     <p style="font-size: 28px; letter-spacing: 5px;font-family: 'Times New Roman', Times, serif;">Brazil Coffee</p>  
                     <p style="color: rgb(120, 120, 120);font-size: 24px;"> $35.00</p>
 
+                    <button id="sec_6_cart_btn"  onclick="alert('item added to cart')">Add cart</button>
+
                 </center>  
                 </div>
-                <div>
+
+                <div id="sec_6_container">
                 <center>
                     <img id="img_sec_6" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-5.png" width="300">  
                     <p style="font-size: 28px; letter-spacing: 5px;font-family: 'Times New Roman', Times, serif;">Columbia Coffee</p>
                     <p style="color: rgb(120, 120, 120);font-size: 24px;"> $21.00</p>
+                    <button id="sec_6_cart_btn"  onclick="alert('item added to cart')">Add cart</button>
  
                 </center>     
                 </div>
-                <div>
+
+                <div id="sec_6_container">
                     <center>
                         <img id="img_sec_6" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-3.png" width="300">  
                         <p style="font-size: 28px; letter-spacing: 5px;font-family: 'Times New Roman', Times, serif;">Kenya Coffee</p>
                         <p style="color: rgb(120, 120, 120);font-size: 24px;"> $18.00</p>
+                        <button id="sec_6_cart_btn"  onclick="alert('item added to cart')">Add cart</button>
      
                     </center>     
                     </div>
                 
-                <div>
+                <div id="sec_6_container">
                 <center>
                     <img id="img_sec_6" src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/product-img-10.png" width="300">  
                     <p style="font-size: 28px; letter-spacing: 5px;font-family: 'Times New Roman', Times, serif;">Indonesia Coffee</p> 
                     <p style="color: rgb(120, 120, 120);font-size: 24px;"> $30.00</p>
+                    <button id="sec_6_cart_btn" onclick="alert('item added to cart')">Add cart</button>
+
                 <center>     
                 </div>
             
@@ -264,6 +284,15 @@
 
 
         </div>
+    </div>
+
+
+    <div id="sec_8_bg">
+        <center>
+            <p  style="font-size: 2rem; display: inline;">Contact us, anytime we are in Touch !  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="contact.html"><button id="contact_btn">Contact us</button></a></p>
+
+          
+        </center>
     </div>
 
 
